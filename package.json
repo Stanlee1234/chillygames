@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "echo 'No build required'"
+    "build": "echo 'No build required'",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler dev"
   },
   "repository": {
     "type": "git",
@@ -17,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Stanlee1234/flqnxlwfizoamsnsduwjskalowpqif/issues"
   },
-  "homepage": "https://github.com/Stanlee1234/flqnxlwfizoamsnsduwjskalowpqif#readme"
+  "homepage": "https://github.com/Stanlee1234/flqnxlwfizoamsnsduwjskalowpqif#readme",
+  "devDependencies": {
+    "wrangler": "^4.71.0"
+  }
 }
